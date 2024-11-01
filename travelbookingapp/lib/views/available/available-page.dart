@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:travelbookingapp/components/icon-button.dart';
 import 'package:travelbookingapp/components/rounded-rect-button.dart';
 import 'package:travelbookingapp/controller/fetch-service.dart';
-import 'package:travelbookingapp/core/service_data.dart';
+
 import 'package:travelbookingapp/views/available/components/display-com.dart';
 import 'package:travelbookingapp/views/available/components/header-com.dart';
 import 'package:travelbookingapp/views/info/info-page.dart';
@@ -17,9 +17,9 @@ class AvailableServicePage extends StatefulWidget {
 
 class _AvailableServicePageState extends State<AvailableServicePage> {
   final List<String> imagePaths = [
-    "https://s3-alpha-sig.figma.com/img/4312/9012/f0aef966de9cbd539770017636caed66?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gnFCMoaxyhAYpeFwZGkzIibyfajznVrpqiw5CmDTnV8PpbBQtyRW-s6H90c2cUa5SvfLw2KpjRoi1qzqUWpmBUqtGdhzxVEMPNb0Jbodt8UN4ZoToJYGztfbAHEYxlgvAAUzSvG86FoUegQ6Zaclx08fIxtqJBEaYtQ1TE4O778iub2oaaJ0-D3PraDjnKYI0xSngt8HTem8MuMGe6ebJ2QUSBYS7QDtwz8tQL7EogkKuFVc~nPomkZU3UnbAsxAPRSpV3ZzAp3Gi5OM3AHi6IbIM6p8O-UdXmeSDBpP~qF7KBLLJF4sPYcVBS4jrGjIHwS0J3lOluhhhV9gdrGb~A__",
-    "https://s3-alpha-sig.figma.com/img/b812/8322/d45073eb059216ad4d3fa817e30806cd?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=adIm6YF00YKu5Q9aRf43vlObTB4aQ7AypDQNnQvyRj03fLfdR3esuaInK5i6zV-T2CweWx2AJqylzFE9QbdjZIpT~IquodZ64yLdoCY6asc9h9DR2EFTPbBn6R1xdS328MKyFZe~QBa~o9qWwNvT3SwWjpQdhh8Y-wayTcEKxjYDNZWXkSwuxw6gs49GksJLSlUMVxBavoDzAphqKKfexfsKITSozLWdnoLv1fky-dqjAmuUWgz0G0XLBRM~RCMZoul20boh7RIcsxryRZ392-VVMI0izzaQ~H6igrChB7HJeuBV4qC9cbal952ElTHTq72IdOXrVlJHOEQJDGI3mA__",
-    "https://s3-alpha-sig.figma.com/img/8eb0/06f3/0dc1acabb86d39794dbde269076d75a1?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mQrnQ0fVo8zQ4u9TreO~cMIBqnz2lD7xhA~nbvTdEXql~G0MlT~ewArIzFPSawxLQ9v7wEzxPFij9DyWj9rGgSYiwDaLLfJdGlXDHLZp62w8njY-Xn8MDQNwZNgb7wdPrUZ1Cm~ciYNiTY5xios4-W1n3Kx6LLEq8Qbe9DKMMGfprWOLiSQIPvTR8Y9eh6NKvLdX2zA9KtnSCgSO4Iyrdt5d8GbWRfLJkqK3toMpZapvJiyZN5Ejgog9wDuTN54MPw~2QZl9uS7CTww4bx3mhav3JTDqXZIIfl0~Hp0mSitBRRsUsVxO~9UTcr4V~FXk662zNjVnlfAZ9m-rfCki7g__",
+    "https://elements-resized.envatousercontent.com/envato-dam-assets-production/EVA/TRX/c4/68/75/62/0a/v1_E10/E10QS57.jpg?w=1400&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=56285bda978c986d245aaf096ef4fe4325d2556df53778e01d04b681d880fcc9",
+    "https://images.unsplash.com/photo-1444487233259-dae9d907a740?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1436162716854-dcb9157bfac1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   ];
 
   @override

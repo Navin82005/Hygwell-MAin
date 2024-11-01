@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travelbookingapp/components/heading.dart';
-import 'package:travelbookingapp/components/increment-decrement-button.dart';
-import 'package:travelbookingapp/core/meals_data.dart';
+
 import 'package:travelbookingapp/core/service_data.dart';
 import 'package:travelbookingapp/core/switches.dart';
 

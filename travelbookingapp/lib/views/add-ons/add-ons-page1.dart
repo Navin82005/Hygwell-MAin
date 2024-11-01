@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
+
 import 'package:travelbookingapp/components/crossicon-appbar.dart';
 import 'package:travelbookingapp/components/rounded-rect-button.dart';
+
 import 'package:travelbookingapp/core/bill_data.dart';
 import 'package:travelbookingapp/core/meals_data.dart';
 import 'package:travelbookingapp/core/service_data.dart';
 import 'package:travelbookingapp/core/vehicle_data.dart';
+
 import 'package:travelbookingapp/views/add-ons/components/additionalServices-com.dart';
 import 'package:travelbookingapp/views/add-ons/components/billSection-com.dart';
 import 'package:travelbookingapp/views/passenger-detail/components/ticket-com.dart';
-import 'package:travelbookingapp/views/passenger-detail/components/travelCard-com.dart';
 
 class AddOnsMain extends StatefulWidget {
   final ServiceData travelData;

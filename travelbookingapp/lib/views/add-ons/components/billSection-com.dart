@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'package:travelbookingapp/components/currency.dart';
 import 'package:travelbookingapp/components/dashed-divider.dart';
 import 'package:travelbookingapp/components/heading.dart';
-import 'package:travelbookingapp/components/rounded-rect-button.dart';
+
 import 'package:travelbookingapp/core/bill_data.dart';
 import 'package:travelbookingapp/core/vehicle_data.dart';
 

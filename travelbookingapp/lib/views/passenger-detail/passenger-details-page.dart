@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+
 import 'package:travelbookingapp/components/custom-appbar.dart';
 import 'package:travelbookingapp/components/rounded-rect-button.dart';
-import 'package:travelbookingapp/views/add-ons/add-ons-page1.dart';
+
 import 'package:travelbookingapp/views/passenger-detail/components/form-com.dart';
 import 'package:travelbookingapp/views/passenger-detail/components/ticket-com.dart';
-import 'package:travelbookingapp/views/passenger-detail/components/travelCard-com.dart';
 
 class PassengerDetails extends StatelessWidget {
   const PassengerDetails({super.key});
