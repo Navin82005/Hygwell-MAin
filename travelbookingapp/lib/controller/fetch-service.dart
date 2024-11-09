@@ -19,6 +19,9 @@ class FetchServiceData {
       ],
       isSpecialNotesAvailable: true,
       imagePaths: [
+        // "assets/images/E10QS57.png",
+        // "assets/images/image1.png",
+        // "assets/images/image2.png",
         "https://elements-resized.envatousercontent.com/envato-dam-assets-production/EVA/TRX/c4/68/75/62/0a/v1_E10/E10QS57.jpg?w=1400&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=56285bda978c986d245aaf096ef4fe4325d2556df53778e01d04b681d880fcc9",
         "https://images.unsplash.com/photo-1444487233259-dae9d907a740?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1436162716854-dcb9157bfac1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
