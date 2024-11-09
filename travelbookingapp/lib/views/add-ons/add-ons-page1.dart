@@ -72,8 +72,9 @@ class _AddOnsMainState extends State<AddOnsMain> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const PopUpAppBar(
+            PopUpAppBar(
               iconSize: 20,
+              onPressed: () => Navigator.pop(context),
               heading: "Add-Ons",
             ),
             const SizedBox(height: 24),
@@ -103,6 +104,7 @@ class _AddOnsMainState extends State<AddOnsMain> {
               fontSize: 18,
               fontWeight: FontWeight.w600,
             ),
+            const SizedBox(height: 50),
           ],
         ),
       ),
